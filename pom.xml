@@ -46,7 +46,7 @@
 					<repository>fayesa/${project.artifactId}</repository>
 					<tag>${project.version}</tag>
 					<buildArgs>
-						<JAR_FILE>target/${project.build.finalName}.jar</JAR_FILE>
+						<JAR_FILE>target/${project.build.finalName}</JAR_FILE>
 					</buildArgs>
 				</configuration>
 				<executions>
