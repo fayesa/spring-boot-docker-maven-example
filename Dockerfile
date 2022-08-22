@@ -4,7 +4,7 @@ FROM java:8
 # Make port 8080 available to the world outside this container
 EXPOSE 8080
 
-ADD target/maven.jar maven.jar
+ADD target/maven maven
 
 # Run the jar file 
-ENTRYPOINT ["java","-jar","maven.jar"]
+ENTRYPOINT ["java","-jar","maven"]
